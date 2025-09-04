@@ -4604,9 +4604,7 @@ figcaption {
   }
 
   .brand-link-navbar-2.w--current {
-    width: 121px;
-    height: auto;
-    display: inline-flex;
+    width: 18%;
   }
 
   .nav-container-2 {
@@ -4977,13 +4975,6 @@ figcaption {
     flex-direction: column;
     justify-content: center;
     padding-left: 0;
-  }
-
-  .brand-link-navbar-2.w--current {
-    justify-content: center;
-    align-items: center;
-    width: 106px;
-    display: inline-flex;
   }
 
   .logo-vibz {
