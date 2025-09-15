@@ -1706,6 +1706,10 @@ figcaption {
   display: flex;
 }
 
+.icon-medium.herz {
+  margin-left: 6px;
+}
+
 .limit-845 {
   max-width: 845px;
 }
