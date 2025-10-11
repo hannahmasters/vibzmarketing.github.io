@@ -1652,8 +1652,9 @@ figcaption {
 
 .no-margins {
   text-transform: none;
-  margin-top: 10px;
-  font-size: 6em;
+  margin-top: 0;
+  font-size: 3.7em;
+  line-height: 107%;
 }
 
 .no-margins.small {
@@ -1670,7 +1671,7 @@ figcaption {
 }
 
 .limit-1062.text-center.align-items-center {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .text-center {
@@ -3924,6 +3925,23 @@ figcaption {
   display: none;
 }
 
+.header-subline {
+  font-family: Manrope, sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.body {
+  background-color: var(--background-light);
+  -webkit-text-fill-color: inherit;
+  background-clip: border-box;
+}
+
+.body-bg {
+  background-color: var(--light-pink);
+}
+
 @media screen and (max-width: 991px) {
   .cta-main.nav-cta {
     color: var(--black);
@@ -3984,6 +4002,7 @@ figcaption {
   .navbar-wrap {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
+    margin-top: 8px;
   }
 
   .fotoer-grid {
@@ -3995,7 +4014,7 @@ figcaption {
   }
 
   .no-margins {
-    font-size: 4.9em;
+    font-size: 3.2em;
   }
 
   .image-wrap-big {
@@ -4371,6 +4390,15 @@ figcaption {
     margin-left: 16px;
     margin-right: 16px;
   }
+
+  .header-subline {
+    font-size: 1.1em;
+    line-height: 130%;
+  }
+
+  .body-bg, .body-3 {
+    background-color: var(--light-pink);
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4474,7 +4502,7 @@ figcaption {
   }
 
   .no-margins {
-    font-size: 4em;
+    font-size: 2.6em;
   }
 
   .story-halves {
@@ -4861,7 +4889,8 @@ figcaption {
   }
 
   .no-margins {
-    font-size: 3.3em;
+    margin-bottom: 0;
+    font-size: 2em;
   }
 
   .image-wrap-big {
@@ -5298,6 +5327,10 @@ figcaption {
 
   .italic-text {
     font-size: .7em;
+  }
+
+  .header-subline {
+    font-size: 1em;
   }
 }
 
