@@ -123,7 +123,6 @@
 }
 
 .w-commerce-commerceaddtocartquantityinput {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -148,7 +147,6 @@
 .w-commerce-commerceaddtocartbutton {
   color: #fff;
   cursor: pointer;
-  -webkit-appearance: none;
   appearance: none;
   background-color: #3898ec;
   border-width: 0;
@@ -170,7 +168,6 @@
 .w-commerce-commercebuynowbutton {
   color: #fff;
   cursor: pointer;
-  -webkit-appearance: none;
   appearance: none;
   background-color: #3898ec;
   border-width: 0;
@@ -223,7 +220,6 @@
 .w-commerce-commercecartapplepaybutton {
   color: #fff;
   cursor: pointer;
-  -webkit-appearance: none;
   appearance: none;
   background-color: #000;
   border-width: 0;
@@ -246,7 +242,6 @@
 .w-commerce-commercecartquickcheckoutbutton {
   color: #fff;
   cursor: pointer;
-  -webkit-appearance: none;
   appearance: none;
   background-color: #000;
   border-width: 0;
@@ -291,7 +286,6 @@
 }
 
 .w-commerce-commercecheckoutemailinput {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -318,7 +312,6 @@
 }
 
 .w-commerce-commercecheckoutshippingfullname {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -341,7 +334,6 @@
 }
 
 .w-commerce-commercecheckoutshippingstreetaddress {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -364,7 +356,6 @@
 }
 
 .w-commerce-commercecheckoutshippingstreetaddressoptional {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -399,7 +390,6 @@
 }
 
 .w-commerce-commercecheckoutshippingcity {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -422,7 +412,6 @@
 }
 
 .w-commerce-commercecheckoutshippingstateprovince {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -445,7 +434,6 @@
 }
 
 .w-commerce-commercecheckoutshippingzippostalcode {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -468,7 +456,6 @@
 }
 
 .w-commerce-commercecheckoutshippingcountryselector {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -536,7 +523,6 @@
 }
 
 .w-commerce-commercecheckoutcardnumber {
-  -webkit-appearance: none;
   appearance: none;
   cursor: text;
   background-color: #fafafa;
@@ -560,7 +546,6 @@
 }
 
 .w-commerce-commercecheckoutcardexpirationdate {
-  -webkit-appearance: none;
   appearance: none;
   cursor: text;
   background-color: #fafafa;
@@ -584,7 +569,6 @@
 }
 
 .w-commerce-commercecheckoutcardsecuritycode {
-  -webkit-appearance: none;
   appearance: none;
   cursor: text;
   background-color: #fafafa;
@@ -627,7 +611,6 @@
 }
 
 .w-commerce-commercecheckoutbillingfullname {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -650,7 +633,6 @@
 }
 
 .w-commerce-commercecheckoutbillingstreetaddress {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -673,7 +655,6 @@
 }
 
 .w-commerce-commercecheckoutbillingstreetaddressoptional {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -696,7 +677,6 @@
 }
 
 .w-commerce-commercecheckoutbillingcity {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -719,7 +699,6 @@
 }
 
 .w-commerce-commercecheckoutbillingstateprovince {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -742,7 +721,6 @@
 }
 
 .w-commerce-commercecheckoutbillingzippostalcode {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -765,7 +743,6 @@
 }
 
 .w-commerce-commercecheckoutbillingcountryselector {
-  -webkit-appearance: none;
   appearance: none;
   background-color: #fafafa;
   border: 1px solid #ddd;
@@ -856,7 +833,6 @@
 .w-commerce-commercecheckoutplaceorderbutton {
   color: #fff;
   cursor: pointer;
-  -webkit-appearance: none;
   appearance: none;
   text-align: center;
   background-color: #3898ec;
@@ -2688,11 +2664,11 @@ figcaption {
 .text-field-contact {
   border: 1px solid var(--black);
   background-color: var(--white);
+  width: 100%;
+  height: 56px;
   color: var(--black);
   letter-spacing: -.01em;
   border-radius: 16px;
-  width: 100%;
-  height: 56px;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 16px;
@@ -2972,12 +2948,12 @@ figcaption {
 
 .cta-checkout {
   background-color: var(--yellow);
+  width: 100%;
   color: var(--black);
   letter-spacing: -.01em;
   border-radius: 48px;
   justify-content: center;
   align-items: center;
-  width: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
   font-size: 18px;
@@ -5463,3 +5439,12 @@ figcaption {
 }
 
 
+
+.service-link {
+  text-decoration: underline;
+  text-underline-offset: .15em;
+}
+
+#services {
+  scroll-margin-top: 6rem;
+}
